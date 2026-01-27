@@ -56,4 +56,16 @@ console.log(count);
 
 
 
-//
+// 5 
+
+let myObject = {
+
+name: 'John Doe',
+age: 25,
+city: 'Example City',
+isStudent: true
+}
+
+for (info in myObject){
+    console.log(info + " : " + myObject[info] + " | " + "Type : " + typeof(info))
+}
