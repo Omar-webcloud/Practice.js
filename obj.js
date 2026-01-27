@@ -39,3 +39,21 @@ console.log(student.physics.marks);
 
 
 // 4 
+
+let Student = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
+};
+
+let count = 0;
+
+for(key in Student){
+    count++;
+}
+console.log(count);
+
+
+
+//
