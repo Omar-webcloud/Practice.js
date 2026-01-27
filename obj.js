@@ -23,3 +23,19 @@ car["passenger capacity"] = 5;
 console.log(car);
 
 
+// 3
+
+const student = {
+    name: "Hamim Sakep",
+    id: 5421,
+    physics: {
+        subject: "HSC Physics",
+        author: "Shahjahan Tapan",
+        marks: 30
+    }
+};
+
+console.log(student.physics.marks);
+
+
+// 4 
