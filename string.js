@@ -14,3 +14,16 @@ console.log("vowel shob ase")
 }else{
  console.log("vowel missing")
 }
+
+
+// 4 & 5
+
+let kichu = "Xibon manei koshto";
+
+
+newKichu = "Y"+ kichu.slice(1);
+console.log(newKichu)
+
+aroKichu = kichu.toUpperCase();
+console.log(aroKichu);
+
