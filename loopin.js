@@ -28,3 +28,39 @@ for(name of names){
   
 } 
 // console.log(joined)
+
+
+// 4 
+
+
+
+
+
+
+
+
+
+
+
+// 5 
+
+let og = [1, 2, 3];
+
+let copy = [...og];
+copy[0] = 99;
+
+// console.log(copy);
+
+// console.log(og);
+
+
+// 6 
+
+arr = [
+  { name: "John", marks: 85 },
+  { name: "Alice", marks: 90 }
+]
+
+for(let student of arr){
+    console.log(student.name + " scored " + student.marks)
+}
